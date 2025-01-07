@@ -23,7 +23,8 @@ Centers for Disease Control and Prevention (CDC). Influenza Vaccination Coverage
 - Age Group Vaccination Trends: Elders (65+) and children (6 months - 17 years) show the highest vaccination rates, while adults at high risk also have elevated uptake, indicating that age and health status are key drivers.
 - Peak Years for Protection: Vaccination rates peaked between 2019 and 2021, reflecting a surge in public health awareness during the pandemic, emphasizing the importance of proactive vaccination.
 - Seasonal Surge: Month-by-Month Insights: Vaccination rates rise steadily through the flu season, peaking in January, showing a late-season increase in public participation as flu activity intensifies.
-  
+<img src="doc/Vaccination_Rate_by_State.png" alt="State" width="300" height="200" />    <img src="doc/Vaccination_Rate_by_Age.png" alt="Age" width="300" height="200" />
+<img src="doc/Vaccination_Rate_by_Year.png" alt="Year" width="300" height="200" />    <img src="doc/Vaccination_Rate_by_Month.png" alt="Month" width="300" height="200" />
 ## Setup
 
 ## Technologies
