@@ -1,4 +1,5 @@
 ## Age
+```
 If [Dimension Type] = 'Age' THEN 
     CASE [Dimension]
     WHEN '5-12 Years' THEN 'Children/Youth (6 Months - 17 Years)'
@@ -24,8 +25,10 @@ If [Dimension Type] = 'Age' THEN
     END
 ELSE 'Unknown Age Group'
 END
+```
 
 ## Region
+```
   IF [States FIPS] IN ('Connecticut', 'Maine', 'Massachusetts', 'New Hampshire', 'Rhode Island', 'Vermont') THEN 'Region 1'
     ELSEIF [States FIPS] IN ('New Jersey', 'New York', 'Puerto Rico', 'Virgin Islands') THEN 'Region 2'
     ELSEIF [States FIPS] IN ('Delaware', 'Maryland', 'Pennsylvania', 'Virginia', 'District of Columbia', 'West Virginia') THEN 'Region 3'
@@ -38,8 +41,9 @@ END
     ELSEIF [States FIPS] IN ('Alaska', 'Idaho', 'Oregon', 'Washington') THEN 'Region 10'	
     ELSE 'All'
   END
-
+```
 ## Year
+```
   IF CONTAINS(STR([Season/Survey Year]), '2012') THEN '2012'
     ELSEIF CONTAINS(STR([Season/Survey Year]), '2013') THEN '2013'
     ELSEIF CONTAINS(STR([Season/Survey Year]), '2014') THEN '2014'
@@ -57,8 +61,9 @@ END
     ELSEIF STR([Season/Survey Year]) = 'Oct-09' THEN '2024'
     ELSE NULL
   END
-
+```
 ## States
+```
   IF [Geography Type] = 'HHS Regions/National' THEN STR([Fips])
     ELSEIF LEN(STR([Fips])) <= 2 THEN 
       CASE STR([Fips])
@@ -186,3 +191,4 @@ ELSEIF LEN(STR([Fips])) >= 3 THEN
         ELSE 'Unknown'
       END
   END
+```
