@@ -1,6 +1,10 @@
 # 💉 Vaccine Victory: Tracking Influenza Coverage
 ## 🔦 Project Overview
-The CDC's dataset of 218K records reveals flu vaccination coverage across the U.S. from 2012 to 2024. This dashboard explores regional, yearly, age group, and monthly trends to uncover how vaccination rates have evolved and which areas are leading in flu prevention efforts. Dive in to see the patterns and insights that shape our understanding of flu vaccination across the country.
+The CDC's dataset, featuring 218K records, provides a comprehensive view of flu vaccination coverage across the U.S. from 2012 to 2024. This dashboard delves into regional, yearly, age group, and monthly trends, revealing how vaccination rates have evolved and identifying leading areas in flu prevention efforts. Explore this ***interactive dashboard*** to uncover key patterns and insights shaping our understanding of flu vaccination nationwide.
+
+- **`data/`**: Contains the cleaned CDC dataset, with non-estimated coverage data removed. Final dataset includes 196K rows 
+- **`doc/`**: Includes non-interactive outputs and visualizations from the project
+- **`calculated_field`**: Stores all calculated fields utilized in the dashboard creation
 
 Check out my [Tableau Public](https://public.tableau.com/views/vaccinesideproject/InfluenzaVaccinationTrendsandCoverage?:language=zh-TW&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ## 📊 Data Source
@@ -28,7 +32,8 @@ Centers for Disease Control and Prevention (CDC). Influenza Vaccination Coverage
   <img src="doc/Vaccination_Rate_by_Year.png" alt="Year" width="300" height="200"/>    <img src="doc/Vaccination_Rate_by_Month.png" alt="Month" width="300" height="200"/>
 
 ## 🛠️ Setup
-
+- Clone the Repository
+- Open in Tableau: Open the Tableau workbook (.twb or .twbx) from your local folder to access the interactive dashboard
 ## 💻 Technologies
 - Excel
 - Tableau
