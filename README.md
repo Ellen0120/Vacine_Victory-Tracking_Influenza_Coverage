@@ -8,8 +8,8 @@
 ## Setup
 
 ## Technologies
-1. Excel
-2. Tableau
+
+∙ Tableau
 
 ## License
-MIT License Copyright (c) 2025 [Ming-Lun Lee]
+This project is licensed under the MIT License.
